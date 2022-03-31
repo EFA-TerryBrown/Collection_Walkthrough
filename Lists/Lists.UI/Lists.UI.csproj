@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lists.Data\Lists.Data.csproj" />
+    <ProjectReference Include="..\Lists.Repositories\Lists.Repositories.csproj" />
+    <ProjectReference Include="..\Lists.Models\Lists.Models.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- <Nullable>enable</Nullable> -->
+  </PropertyGroup>
+
+</Project>
